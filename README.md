@@ -20,7 +20,7 @@ Compare the data & trading movement of the cryptocurrencies asset class. Determi
 - Cryptocurrency pricing & volume datsets from Coinbase and CoinMarketCap
 - Global World, Regional & Country Indices from Investing.com
 
-## APIs & new python package used
+## APIs & new Python package used
 - Coinbase REST API - cryptocurrency historical data (volume)
 - Dealing with rate limits and amount of data returned
 - CoinMarketCap - cryptocurrency historical prices
@@ -34,8 +34,37 @@ Compare the data & trading movement of the cryptocurrencies asset class. Determi
 - Presentation
 
 ## Key Assets
-- Combined Data Prep Notebook (data_processing.ipynb)
-- Combined Analysis & Dashboard Notebook (final_analysis.ipynb)
+- Combined Data Prep Notebook ([data_processing.ipynb](notebooks/data_processing.ipynb))
+- Combined Analysis & Dashboard Notebook ([final_analysis.ipynb](notebooks/final_analysis.ipynb))
 - Various notebooks used per analysis domain
-- Saved data sources & datframes via .csv files
-- Saved .png images 
+- Saved data sources & dataframes via CSV [files](data)
+- Saved visualization PNG [images](images)
+
+## Findings
+
+### How many different cryptocurrencies are out in the market?
+
+*Answer here.* Coinbase, one of the most well known exchanges, supports trading over 40 cryptocurrencies.
+
+### What is the relationship between cryptocurrencies?
+*Answer here.*
+
+### What similarities and differences can we draw between cryptocurrencies and other asset classes?
+*Answer here.*
+
+### What fiat currencies are accepted for buying/selling cryptocurrencies?
+
+The US dollar, Pound Sterling and Euro are widely accepted across the exchanges. Also accepted are the Japanese yen, the Russian ruble, the Australian dollar, the Singapore dollar, and the Canadian dollar. Coinbase accepts: USD, GBP, EUR, AUD, SGD, and CAD.
+
+### How often is one fiat currency used compared to another?
+
+The USD is the most popular fiat currency used to buy cryptocurrencies. Coinbase's historical data shows the US dollar (USD) is more popular by volume (total # of coins/token) than the Pound Sterling (GBP) and Euro (EUR).
+
+![Daily Volume of Trading Activity by Fiat Currency](images/trading_volume_by_fiat_plot.png)
+
+Additionally, the USD is also used to buy more cryptocurrencies than the other fiat currencies.
+
+![Daily Count of Unique Cryptocurrencies Traded](images/unique_cryptocurrency_count.png)
+
+### Is crypto a viable asset class? Who are the winners and laggards?
+*Answer here.*

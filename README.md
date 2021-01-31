@@ -39,18 +39,26 @@ Compare the data & trading movement of the cryptocurrencies asset class. Determi
 - Various notebooks used per analysis domain
 - Saved data sources & dataframes via CSV [files](data)
 - Saved visualization PNG [images](images)
+- Powerpoint presentation
 
 ## Findings
 
 ### How many different cryptocurrencies are out in the market?
 
-*Answer here.* Coinbase, one of the most well known exchanges, supports trading over 40 cryptocurrencies.
+- There are >4000 unique cryptocurrencies out in the market per CoinMarketCap. 
+- Coinbase, one of the most well known exchanges, supports trading over 40 cryptocurrencies.
 
 ### What is the relationship between cryptocurrencies?
-*Answer here.*
+
+- From the top 10 cryptos by market cap in 2020, Bitcoin is king with an average closing price of $11,180 vs Kusama closing with an average of $17.36. 
+- Bitcoin and Ethereum are closely correlated (0.8) and Bitcoin SV and Zcash are least correlated (-0.062). 
+
+![Crypto 30 Day Rolling Standard Deviation](images/intra_corr_plot.png)
 
 ### What similarities and differences can we draw between cryptocurrencies and other asset classes?
-*Answer here.*
+- Bitcoin is the most volatile among the 10 cryptos and Counos is the least risky by the end of 2020. 
+
+![Crypto 30 Day Rolling Standard Deviation](images/intra_crypto_rolling.png)
 
 ### What fiat currencies are accepted for buying/selling cryptocurrencies?
 
